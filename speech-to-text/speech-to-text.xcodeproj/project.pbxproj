@@ -12,6 +12,7 @@
 		A74ED3031DE03BC500DE7BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ED3011DE03BC500DE7BAC /* Main.storyboard */; };
 		A74ED3051DE03BC500DE7BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74ED3041DE03BC500DE7BAC /* Assets.xcassets */; };
 		A74ED3081DE03BC500DE7BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ED3061DE03BC500DE7BAC /* LaunchScreen.storyboard */; };
+		A74ED3291DE099CC00DE7BAC /* NuanceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ED3281DE099CC00DE7BAC /* NuanceAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A74ED3041DE03BC500DE7BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74ED3071DE03BC500DE7BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74ED3091DE03BC500DE7BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74ED3281DE099CC00DE7BAC /* NuanceAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuanceAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A74ED3041DE03BC500DE7BAC /* Assets.xcassets */,
 				A74ED3061DE03BC500DE7BAC /* LaunchScreen.storyboard */,
 				A74ED3091DE03BC500DE7BAC /* Info.plist */,
+				A74ED3281DE099CC00DE7BAC /* NuanceAPIClient.swift */,
 			);
 			path = "speech-to-text";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74ED3291DE099CC00DE7BAC /* NuanceAPIClient.swift in Sources */,
 				A74ED3001DE03BC500DE7BAC /* ViewController.swift in Sources */,
 				A74ED2FE1DE03BC500DE7BAC /* AppDelegate.swift in Sources */,
 			);
